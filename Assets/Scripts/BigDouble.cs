@@ -1112,7 +1112,6 @@ namespace BreakInfinity
                     return _bigDoubleToFormat.ToString("G3");
             }
         }
-    }
 
         #endregion
     }
@@ -1398,6 +1397,5 @@ namespace BreakInfinity
             return BigDouble.Pow(value, 2);
         }
 
-		#endregion
 	}
 }
