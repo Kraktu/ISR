@@ -6,7 +6,8 @@ public enum NumberDisplayStyle
 {
 	Short,
 	Long,
-	Science
+	ScienceDetailed,
+	ScienceShort
 }
 
 public class GameOptions : MonoBehaviour
@@ -15,15 +16,21 @@ public class GameOptions : MonoBehaviour
 	public bool destroyOnLoad = true;
 	private  NumberDisplayStyle userNumberDisplayStyle = NumberDisplayStyle.Short;
 
+	#region Magic
+	#region Getters
 	public NumberDisplayStyle GetUserNumberDisplayStyle()
 	{
 		return userNumberDisplayStyle;
 	}
+	#endregion
 
+	#region Setters
 	public void SetUserNumberDisplayStyle(NumberDisplayStyle _userNumberDisplayStyle)
 	{
 		userNumberDisplayStyle = _userNumberDisplayStyle;
 	}
+	#endregion
+	#endregion
 
 	private void Awake()
 	{
