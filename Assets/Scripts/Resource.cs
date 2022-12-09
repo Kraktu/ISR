@@ -8,7 +8,6 @@ public class Resource : MonoBehaviour
 
 	[SerializeField] private string resourceName;
 	[SerializeField] private BigDouble resourceNumber;
-	public int testAdd;
 
 	#region Magic
 
@@ -35,15 +34,4 @@ public class Resource : MonoBehaviour
 	#endregion
 	#endregion
 
-	private void Update()
-	{
-		if(Input.GetMouseButtonDown(0))
-		{
-			AddResourceNumber();
-		}
-	}
-	public void AddResourceNumber()
-	{
-		resourceNumber += testAdd;
-	}
 }
