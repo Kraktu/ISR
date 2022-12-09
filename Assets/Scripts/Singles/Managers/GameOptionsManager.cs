@@ -10,9 +10,9 @@ public enum NumberDisplayStyle
 	ScienceShort
 }
 
-public class GameOptions : MonoBehaviour
+public class GameOptionsManager : MonoBehaviour
 {
-	public static GameOptions Instance { get; private set; }
+	public static GameOptionsManager Instance { get; private set; }
 	public bool destroyOnLoad = true;
 	private  NumberDisplayStyle userNumberDisplayStyle = NumberDisplayStyle.Short;
 

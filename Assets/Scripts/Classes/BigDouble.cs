@@ -1049,54 +1049,55 @@ namespace BreakInfinity
 
 		#region MyAdding
 
-		public static string GetFormatedBigDouble(BigDouble _bigDoubleToFormat)
+		public string GetFormatedBigDouble()
         {
 
             
 
-            if (_bigDoubleToFormat>1 || _bigDoubleToFormat<-1)
+            if (this>1 || this < -1)
 			{
-                if(_bigDoubleToFormat<10 && _bigDoubleToFormat>-10)
+                if(this < 10 && this > -10)
 				{
-                    return _bigDoubleToFormat.ToString("F2");
+                    return ToString("F2");
 				}
-                else if (_bigDoubleToFormat <= 999 && _bigDoubleToFormat >= -999)
+                else if (this <= 999 && this >= -999)
                 {
-                    return _bigDoubleToFormat.ToString("F0");
+                    return ToString("F0");
                 }
 
-                return DefaultDisplayBehaviour(Conventions.Instance.GetShortIntName(), Conventions.Instance.GetLongIntName(), _bigDoubleToFormat);
+                return DefaultDisplayBehaviour(Conventions.Instance.GetShortIntName(), Conventions.Instance.GetLongIntName());
             }
 			else
 			{
 
-               return DefaultDisplayBehaviour(Conventions.Instance.GetShortFloatName(), Conventions.Instance.GetLongFloatName(), _bigDoubleToFormat);
+               return DefaultDisplayBehaviour(Conventions.Instance.GetShortFloatName(), Conventions.Instance.GetLongFloatName());
 
             }
             
             
 		}
 
-        private static string DefaultDisplayBehaviour(string[] _shortConvention,string[] _longConvention, BigDouble _bigDoubleToFormat)
+        private string DefaultDisplayBehaviour(string[] _shortConvention,string[] _longConvention)
 		{
-            int _thousandsExp = (int)MathF.Abs(Mathf.Floor(_bigDoubleToFormat.exponent / 3));
-            NumberDisplayStyle _ds = GameOptions.Instance.GetUserNumberDisplayStyle();
+            int _thousandsExp = (int)MathF.Abs(Mathf.Floor(exponent / 3));
+            NumberDisplayStyle _ds = GameOptionsManager.Instance.GetUserNumberDisplayStyle();
             if (_ds == NumberDisplayStyle.Short || _ds == NumberDisplayStyle.Long)
             {
                 if (_thousandsExp > _longConvention.Length)
                 {
-                    return _bigDoubleToFormat.ToString("G3");
+                    return ToString("G3");
                 }
             }
-
+            int _zeros = (int)(exponent % 3);
+            string _initialString = ToString("E5");
             string _trimmedThreeSignificantNumber;
-            if (_bigDoubleToFormat < 0)
+            if (this < 0)
             {
-                _trimmedThreeSignificantNumber = _bigDoubleToFormat.ToString("E2").Substring(0, 5).Trim('.');
+                _trimmedThreeSignificantNumber = _initialString.Substring(0, 3+ _zeros).Replace(".","") + "." + _initialString.Substring(_zeros+3, 2);
             }
             else
             {
-                _trimmedThreeSignificantNumber = _bigDoubleToFormat.ToString("E2").Substring(0, 4).Trim('.');
+                _trimmedThreeSignificantNumber = _initialString.Substring(0, 2 + _zeros).Replace(".", "") + "." + _initialString.Substring(_zeros + 2,2) ;
             }
             switch (_ds)
             {
@@ -1105,11 +1106,11 @@ namespace BreakInfinity
                 case NumberDisplayStyle.Long:
                     return _trimmedThreeSignificantNumber + _longConvention[_thousandsExp];
                 case NumberDisplayStyle.ScienceShort:
-                    return _bigDoubleToFormat.ToString("G1");
+                    return ToString("G1");
                 case NumberDisplayStyle.ScienceDetailed:
-                    return _bigDoubleToFormat.ToString("G3");
+                    return ToString("G3");
                 default:
-                    return _bigDoubleToFormat.ToString("G3");
+                    return ToString("G3");
             }
         }
 
