@@ -1054,23 +1054,23 @@ namespace BreakInfinity
 
             
 
-            if (this>1 || this < -1)
+            if (this>=1 || this <= -1)
 			{
                 if(this < 10 && this > -10)
 				{
                     return ToString("F2");
 				}
-                else if (this <= 999 && this >= -999)
+                else if (this <1000 && this > -1000)
                 {
                     return ToString("F0");
                 }
 
-                return DefaultDisplayBehaviour(Conventions.Instance.GetShortIntName(), Conventions.Instance.GetLongIntName());
+                return DefaultDisplayBehaviour(NumberConventions.Instance.GetShortIntName(), NumberConventions.Instance.GetLongIntName());
             }
 			else
 			{
 
-               return DefaultDisplayBehaviour(Conventions.Instance.GetShortFloatName(), Conventions.Instance.GetLongFloatName());
+               return DefaultDisplayBehaviour(NumberConventions.Instance.GetShortFloatName(), NumberConventions.Instance.GetLongFloatName());
 
             }
             
@@ -1079,25 +1079,47 @@ namespace BreakInfinity
 
         private string DefaultDisplayBehaviour(string[] _shortConvention,string[] _longConvention)
 		{
-            int _thousandsExp = (int)MathF.Abs(Mathf.Floor(exponent / 3));
+            int _thousandsExp;
+
+            if (exponent <0)
+			{
+                _thousandsExp = (int)MathF.Abs(Mathf.Floor((exponent+1) / 3));
+
+			}
+			else
+			{
+                _thousandsExp = (int)MathF.Abs(Mathf.Floor(exponent / 3));
+            }
             NumberDisplayStyle _ds = GameOptionsManager.Instance.GetUserNumberDisplayStyle();
             if (_ds == NumberDisplayStyle.Short || _ds == NumberDisplayStyle.Long)
             {
-                if (_thousandsExp > _longConvention.Length)
+                if (_thousandsExp >= _longConvention.Length)
                 {
                     return ToString("G3");
                 }
             }
             int _zeros = (int)(exponent % 3);
+            if(exponent<0)
+			{
+                _zeros = (int)((exponent+1) % 3);
+            }
             string _initialString = ToString("E5");
             string _trimmedThreeSignificantNumber;
-            if (this < 0)
+            if (this <= -1)
             {
                 _trimmedThreeSignificantNumber = _initialString.Substring(0, 3+ _zeros).Replace(".","") + "." + _initialString.Substring(_zeros+3, 2);
             }
-            else
+            else if(this>=1)
             {
                 _trimmedThreeSignificantNumber = _initialString.Substring(0, 2 + _zeros).Replace(".", "") + "." + _initialString.Substring(_zeros + 2,2) ;
+            }
+            else if(this<0)
+			{
+                _trimmedThreeSignificantNumber = _initialString.Substring(0, 3 + _zeros).Replace(".", "") + "." + _initialString.Substring(_zeros + 3, 2);
+            }
+            else
+			{
+                _trimmedThreeSignificantNumber = _initialString.Substring(0, 4 + _zeros).Replace(".", "") + "." + _initialString.Substring(_zeros + 4, 2);
             }
             switch (_ds)
             {

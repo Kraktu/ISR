@@ -2,9 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Conventions : MonoBehaviour
+
+public enum NumberDisplayStyle
 {
-	public static Conventions Instance { get; private set; }
+	Short,
+	Long,
+	ScienceDetailed,
+	ScienceShort
+}
+
+public class NumberConventions : MonoBehaviour
+{
+	public static NumberConventions Instance { get; private set; }
 	public bool destroyOnLoad = true;
 
 	[SerializeField] private string[] shortIntNames = new string[] {"", "K", "M", "G", "T", "P", "E", "Z", "Y", "O", "N", "D", "UnD", "DuoD", "TreD", "QuaD", "QuinD", "SeD", "SepD", "OctD", "NovD", "V" };
