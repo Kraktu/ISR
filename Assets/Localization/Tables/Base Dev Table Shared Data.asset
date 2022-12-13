@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Base Dev Table
   m_TableCollectionNameGuidString: feb2be5e9acb3b745951ef05612c81ae
-  m_Entries: []
+  m_Entries:
+  - m_Id: 133068488704
+    m_Key: RRockNameString
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488640610304
+    m_Key: RWoodNameString
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56377707855872
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

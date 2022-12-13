@@ -9,7 +9,7 @@ public class PlayerResource : MonoBehaviour
 {
 	#region PrivateProperties
 
-	#region VsibleProperties
+	#region VisibleProperties
 
 	[SerializeField] private TextMeshProUGUI playerResourceNbrTMP;
 	[SerializeField] private Image playerResourceImage;
