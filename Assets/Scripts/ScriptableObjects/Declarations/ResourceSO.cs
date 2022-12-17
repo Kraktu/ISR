@@ -10,4 +10,7 @@ public class ResourceSO : ScriptableObject
 	public Sprite resourceSprite;
 	public int tier;
 	public ResourceRarity rarity;
+
+	[HideInInspector] public string resourceShortDescriptionKey;
+	[HideInInspector] public string resourceLongDescriptionKey;
 }

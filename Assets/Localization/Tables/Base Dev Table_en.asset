@@ -16,26 +16,20 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: feb2be5e9acb3b745951ef05612c81ae, type: 2}
   m_Metadata:
-    m_Items:
-    - rid: 7040625156093116478
+    m_Items: []
   m_TableData:
   - m_Id: 133068488704
-    m_Localized: Rock
+    m_Localized: Stone
     m_Metadata:
       m_Items: []
   - m_Id: 488640610304
-    m_Localized: Wood
+    m_Localized: Stone is the most solid of the basic resources to build things
     m_Metadata:
       m_Items: []
   - m_Id: 56377707855872
-    m_Localized: '{Global.playerName} test things'
+    m_Localized: Stones can be found anywhere in the world of blablabla
     m_Metadata:
-      m_Items:
-      - rid: 7040625156093116478
+      m_Items: []
   references:
     version: 2
-    RefIds:
-    - rid: 7040625156093116478
-      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries: 0000407546330000
+    RefIds: []

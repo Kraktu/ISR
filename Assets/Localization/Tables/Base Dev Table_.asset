@@ -10,27 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Base Dev Table_fr-FR
+  m_Name: Base Dev Table_
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: fr-FR
+    m_Code: 
   m_SharedData: {fileID: 11400000, guid: feb2be5e9acb3b745951ef05612c81ae, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 133068488704
-    m_Localized: Pierre
-    m_Metadata:
-      m_Items: []
-  - m_Id: 488640610304
-    m_Localized: "La pierre est l'\xE9l\xE9ment basique le plus solide pour contruire
-      des choses"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 56377707855872
-    m_Localized: Les pierres sont trouvable partout dans le monde de blablabla
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []
