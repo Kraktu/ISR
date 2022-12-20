@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: RareData
   m_EditorClassIdentifier: 
   rarityName: Rare
-  rarityColor: {r: 0, g: 0.12731244, b: 0.8679245, a: 0}
+  rarityColor: {r: 0, g: 0.12731244, b: 0.8679245, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKRare
+  rarityLongDescriptionKey: RarLDKRarNKRare

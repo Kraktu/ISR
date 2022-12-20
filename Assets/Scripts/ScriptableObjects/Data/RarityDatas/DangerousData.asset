@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: DangerousData
   m_EditorClassIdentifier: 
   rarityName: Dangerous
-  rarityColor: {r: 0.6886792, g: 0, b: 0, a: 0}
+  rarityColor: {r: 0.6886792, g: 0, b: 0, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKDangerous
+  rarityLongDescriptionKey: RarLDKRarNKDangerous

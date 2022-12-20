@@ -496,8 +496,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9563f8ae098ce8c48bbe4d7854be77ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultRarity: {fileID: 0}
-  raritySOs: []
+  defaultRarity: {fileID: 11400000, guid: 842fd882b9d4de54dbf52f2f407a8fc9, type: 2}
+  raritySOs:
+  - {fileID: 11400000, guid: e2c9168c901b5084a9c2804e7402c092, type: 2}
+  - {fileID: 11400000, guid: fcf1262b688eaa6439a41028bbd155a4, type: 2}
+  - {fileID: 11400000, guid: c49bcd1ad1021944e921104c134ed323, type: 2}
+  - {fileID: 11400000, guid: 1c5879cea7efa1243b3be32c57a551e0, type: 2}
+  - {fileID: 11400000, guid: a8f2f7303f19ad140bdbbb5408ac0367, type: 2}
+  - {fileID: 11400000, guid: 37b6736707fcc494298db765270ea485, type: 2}
+  - {fileID: 11400000, guid: 842fd882b9d4de54dbf52f2f407a8fc9, type: 2}
+  - {fileID: 11400000, guid: 37addaa37520aa748afa5b39eb495450, type: 2}
   resourceSOs:
   - {fileID: 11400000, guid: ab5ecc00ee9156c4490aefed9dd056e6, type: 2}
   - {fileID: 11400000, guid: 7024909421428424486f5103603474e9, type: 2}

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: SuperRareData
   m_EditorClassIdentifier: 
   rarityName: SuperRare
-  rarityColor: {r: 0, g: 0.6914335, b: 0.8018868, a: 0}
+  rarityColor: {r: 0, g: 0.6914335, b: 0.8018868, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKSuperRare
+  rarityLongDescriptionKey: RarLDKRarNKSuperRare

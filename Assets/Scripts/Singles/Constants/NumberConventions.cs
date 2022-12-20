@@ -13,6 +13,7 @@ public enum NumberDisplayStyle
 
 public class NumberConventions : MonoBehaviour
 {
+	#region Properties
 	public static NumberConventions Instance { get; private set; }
 	public bool destroyOnLoad = true;
 
@@ -22,6 +23,7 @@ public class NumberConventions : MonoBehaviour
 	[SerializeField] private string[] shortFloatNames = new string[] {"m", "mi", "n", "p", "f", "a", "z", "y"};
 	[SerializeField] private string[] longFloatNames = new string[] {"mili", "micro", "nano", "pico", "femto", "atto", "zepto", "yocto"};
 
+	#endregion
 	#region Magic
 	#region Getters
 	public string[] GetShortIntName()
@@ -43,7 +45,7 @@ public class NumberConventions : MonoBehaviour
 
 	#endregion
 	#endregion
-
+	#region UnityFlow
 	private void Awake()
 	{
 		if (Instance != null && Instance != this)
@@ -59,4 +61,5 @@ public class NumberConventions : MonoBehaviour
 			DontDestroyOnLoad(gameObject);
 		}
 	}
+	#endregion
 }

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class LocalizationTableConventions : MonoBehaviour
 {
-
+	#region Properties
+	#region Singleton
 	public static LocalizationTableConventions Instance { get; private set; }
 	public bool destroyOnLoad = true;
-
+	#endregion
 	[SerializeField] private string RNTable, RSDTable, RLDTable, RarNTable, RarSDTable,DebugAndUnassignedTable;
-
+	#endregion
+	#region Unity Flow
 	private void Awake()
 	{
 		if (Instance != null && Instance != this)
@@ -25,7 +27,9 @@ public class LocalizationTableConventions : MonoBehaviour
 			DontDestroyOnLoad(gameObject);
 		}
 	}
+	#endregion
 
+	#region Getters
 	public string GetRNTable()
 	{
 		return RNTable;
@@ -46,4 +50,5 @@ public class LocalizationTableConventions : MonoBehaviour
 	{
 		return RarSDTable;
 	}
+	#endregion
 }

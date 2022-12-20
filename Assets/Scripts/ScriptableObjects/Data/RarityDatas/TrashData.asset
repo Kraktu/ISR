@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: TrashData
   m_EditorClassIdentifier: 
   rarityName: Trash
-  rarityColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 0}
+  rarityColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKTrash
+  rarityLongDescriptionKey: RarLDKRarNKTrash

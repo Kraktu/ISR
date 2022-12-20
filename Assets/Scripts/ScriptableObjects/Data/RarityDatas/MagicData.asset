@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: MagicData
   m_EditorClassIdentifier: 
   rarityName: Magic
-  rarityColor: {r: 0.46601918, g: 0, b: 0.5943396, a: 0}
+  rarityColor: {r: 0.46601918, g: 0, b: 0.5943396, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKMagic
+  rarityLongDescriptionKey: RarLDKRarNKMagic

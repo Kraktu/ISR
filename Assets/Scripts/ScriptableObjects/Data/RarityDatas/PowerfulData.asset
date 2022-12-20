@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: PowerfulData
   m_EditorClassIdentifier: 
   rarityName: Powerful
-  rarityColor: {r: 0.8207547, g: 0, b: 0.54305327, a: 0}
+  rarityColor: {r: 0.8207547, g: 0, b: 0.54305327, a: 1}
   rarityWeight: 0
+  rarityShortDescriptionKey: RarSDKRarNKPowerful
+  rarityLongDescriptionKey: RarLDKRarNKPowerful

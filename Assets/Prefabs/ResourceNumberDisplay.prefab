@@ -92,11 +92,11 @@ MonoBehaviour:
   tooltipHeaderKey: RNK
   tooltipDescriptionKey: RSDK
   tooltipSprite: {fileID: 21300000, guid: 61ac40b257b3a994f841856ad38b2b6b, type: 3}
-  tooltipRarityColor: {r: 1, g: 0.4198113, b: 0.96833235, a: 0}
-  tooltipBackgroundColor: {r: 0, g: 1, b: 0.14043546, a: 0}
+  tooltipRarityColor: {r: 1, g: 0.4198113, b: 0.96833235, a: 1}
+  tooltipBackgroundColor: {r: 0, g: 0.3584906, b: 0.050610434, a: 1}
   delayBeforeShowingTooltip: 1
-  headerLSTable: DebugAndUnsasigned
-  descripionLSTable: DebugAndUnsasigned
+  headerLSTable: DebugAndUnassigned
+  descripionLSTable: DebugAndUnassigned
 --- !u!1 &3932297676987105074
 GameObject:
   m_ObjectHideFlags: 0
