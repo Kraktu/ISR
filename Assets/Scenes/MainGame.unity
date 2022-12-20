@@ -271,6 +271,7 @@ Transform:
   m_Children:
   - {fileID: 863632152}
   - {fileID: 981842285}
+  - {fileID: 1661397909}
   m_Father: {fileID: 1854868284}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -461,7 +462,6 @@ GameObject:
   m_Component:
   - component: {fileID: 981842285}
   - component: {fileID: 981842286}
-  - component: {fileID: 981842287}
   m_Layer: 0
   m_Name: ResourceConvention
   m_TagString: Untagged
@@ -498,90 +498,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultRarity: {fileID: 0}
   raritySOs: []
-  resourceSOs: []
+  resourceSOs:
+  - {fileID: 11400000, guid: ab5ecc00ee9156c4490aefed9dd056e6, type: 2}
+  - {fileID: 11400000, guid: 7024909421428424486f5103603474e9, type: 2}
   destroyOnLoad: 1
---- !u!114 &981842287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981842284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7040625199875620894
-  references:
-    version: 2
-    RefIds:
-    - rid: 7040625199875620894
-      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 981842286}
-        m_TrackedProperties:
-          items:
-          - rid: 7040625199875620895
-          - rid: 7040625199875620896
-        m_UpdateType: 1
-        m_Changed:
-          m_PersistentCalls:
-            m_Calls: []
-    - rid: 7040625199875620895
-      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: raritySOs.Array.size
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: 0
-        - localeIdentifier:
-            m_Code: 
-          value: 8
-    - rid: 7040625199875620896
-      type: {class: UnityObjectProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_PropertyPath: defaultRarity
-        m_TypeString: 
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: en
-          value: {fileID: 0}
-        - localeIdentifier:
-            m_Code: 
-          value: {fileID: 11400000, guid: 842fd882b9d4de54dbf52f2f407a8fc9, type: 2}
---- !u!1 &1484245140 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3932297677843684347, guid: 3510ba96ef8bb7c4e920b4f11faada51, type: 3}
-  m_PrefabInstance: {fileID: 3932297676359504751}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1484245141 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3932297677843684346, guid: 3510ba96ef8bb7c4e920b4f11faada51, type: 3}
   m_PrefabInstance: {fileID: 3932297676359504751}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1484245144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484245140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40c7164378af1bf48b1d9d073cb5f63e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tooltipHeaderKey: RNKStone
-  tooltipDescriptionKey: RSDKStone
-  tooltipSprite: {fileID: 21300000, guid: e60718119cec31e4190849292fcde068, type: 3}
-  tooltipRarityColor: {r: 1, g: 0.9584457, b: 0, a: 1}
-  tooltipBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-  delayBeforeShowingTooltip: 1
-  headerLSTable: Base Dev Table
-  descripionLSTable: Base Dev Table
 --- !u!1 &1519898856
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +599,57 @@ MonoBehaviour:
   destroyOnLoad: 1
   tooltipPrefab: {fileID: 524322004267414742, guid: 8db0be033a620504080ffac4041078bb, type: 3}
   frontCanvas: {fileID: 7819953600362248131}
+--- !u!1 &1661397908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1661397909}
+  - component: {fileID: 1661397910}
+  m_Layer: 0
+  m_Name: LocalizationTableConventions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1661397909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661397908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804069200}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1661397910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661397908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b58284ad2c969647ba9f570e8775f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnLoad: 1
+  RNTable: ResourcesName
+  RSDTable: ResourcesShortDescription
+  RLDTable: ResourcesLongDescription
+  RarNTable: RaritiesNames
+  RarSDTable: ResourcesShortDescription
+  DebugAndUnassignedTable: DebugAndUnassigned
 --- !u!1 &1736992651
 GameObject:
   m_ObjectHideFlags: 0

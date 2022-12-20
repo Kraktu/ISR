@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ResourcesLongDescription_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: de38a3f7a09acea42a7961720571befd, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6986693902336
+    m_Localized: Through every travel, your path is paved with stones. Some are rarer
+      or usefuler than other, but only one thing is sure, you'll find stones everywhere.
+      In it's most pure form, it can be a solid ally, even more when cutted. But
+      once raffined, you couldn't count the way this resource find uses. The most
+      common and most useful resource at the same time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7026938249216
+    m_Localized: It wouldn't be so sad to use the wood in allthe way possibles if
+      it didn't came from the form of life with the most fidelity you'll ever encoutner
+      here. Woodcutters won't tell you, but some of them cry thinking of what they
+      do.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

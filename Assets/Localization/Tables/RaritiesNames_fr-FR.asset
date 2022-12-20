@@ -10,24 +10,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Base Dev Table_en
+  m_Name: RaritiesNames_fr-FR
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
+    m_Code: fr-FR
   m_SharedData: {fileID: 11400000, guid: feb2be5e9acb3b745951ef05612c81ae, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 133068488704
-    m_Localized: Stone
+    m_Localized: "D\xE9chet"
     m_Metadata:
       m_Items: []
   - m_Id: 488640610304
-    m_Localized: Stone is the most solid of the basic resources to build things
+    m_Localized: Commun
     m_Metadata:
       m_Items: []
-  - m_Id: 56377707855872
-    m_Localized: Stones can be found anywhere in the world of blablabla
+  - m_Id: 2483258942099456
+    m_Localized: Non-Commun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483264579244032
+    m_Localized: Rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483269683712000
+    m_Localized: Super Rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483273978679296
+    m_Localized: Magique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483467239624704
+    m_Localized: Puissant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483485891694592
+    m_Localized: Dangereux
     m_Metadata:
       m_Items: []
   references:

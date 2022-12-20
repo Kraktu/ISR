@@ -10,6 +10,7 @@ public class ResourceSO : ScriptableObject
 	public Sprite resourceSprite;
 	public int tier;
 	public ResourceRarity rarity;
+	public Color tooltipBackgroundColor = Color.black;
 
 	[HideInInspector] public string resourceShortDescriptionKey;
 	[HideInInspector] public string resourceLongDescriptionKey;

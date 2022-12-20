@@ -41,17 +41,26 @@ public class ResourceConventions : MonoBehaviour
 			DontDestroyOnLoad(gameObject);
 		}
 
-		InitializeResourceSOs();
-	
+		InitializeResourceKeySOs();
+		InitializeRarityKeySOs();
 	}
 
-	private void InitializeResourceSOs()
+	private void InitializeResourceKeySOs()
 	{
 		for (int i = 0; i < resourceSOs.Count; i++)
 		{
 			resourceSOs[i].resourceName = "RNK" + resourceSOs[i].resourceName;
 			resourceSOs[i].resourceShortDescriptionKey = "RSDK" + resourceSOs[i].resourceName;
 			resourceSOs[i].resourceLongDescriptionKey = "RLDK" + resourceSOs[i].resourceName;
+		}
+	}
+	private void InitializeRarityKeySOs()
+	{
+		for (int i = 0; i < raritySOs.Count; i++)
+		{
+			raritySOs[i].rarityName = "RarNK" + raritySOs[i].rarityName;
+			raritySOs[i].rarityShortDescriptionKey = "RarSDK" + raritySOs[i].rarityName;
+			raritySOs[i].rarityLongDescriptionKey = "RarLDK" + raritySOs[i].rarityName;
 		}
 	}
 

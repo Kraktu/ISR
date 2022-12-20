@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RaritiesShortDescription Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RaritiesShortDescription
+  m_TableCollectionNameGuidString: b3a8e2681abbf7e468472bfed66c6e6f
+  m_Entries:
+  - m_Id: 1771839754240
+    m_Key: RarSDKTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1891826208768
+    m_Key: RarSDKCommon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962668003328
+    m_Key: RarSDKUncommon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1987162738688
+    m_Key: RarSDKRare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006527840256
+    m_Key: RarSDKSuperRare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2029894307840
+    m_Key: RarSDKMagic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2046927376384
+    m_Key: RarSDKPowerful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2087339495424
+    m_Key: RarSDKDangerous
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7040625290755702789
+  references:
+    version: 2
+    RefIds:
+    - rid: 7040625290755702789
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1671518930785

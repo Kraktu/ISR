@@ -21,6 +21,26 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/Base Dev Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: d21b34baae3f8264c8dc5eab0647aef2
+    m_Address: Assets/Localization/Tables/ResourcesName Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 508cd8d69ffaaff4090211c336180c13
+    m_Address: Assets/Localization/Tables/ResourcesShortDescription Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: de38a3f7a09acea42a7961720571befd
+    m_Address: Assets/Localization/Tables/ResourcesLongDescription Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: b3a8e2681abbf7e468472bfed66c6e6f
+    m_Address: Assets/Localization/Tables/RaritiesShortDescription Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: bb9bf81b21a503a4095693388e316f40
+    m_Address: Assets/Localization/Tables/DebugAndUnsasigned Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 858a4e9c46ac38b4bb296631bd5e2e16, type: 2}
   m_SchemaSet:

@@ -9,4 +9,8 @@ public class RaritySO : ScriptableObject
 	public Color rarityColor;
 	public float rarityWeight;
 
+	[HideInInspector] public string rarityShortDescriptionKey;
+	[HideInInspector] public string rarityLongDescriptionKey;
+
+
 }

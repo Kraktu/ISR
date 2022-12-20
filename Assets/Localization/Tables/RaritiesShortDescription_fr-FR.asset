@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: RaritiesShortDescription_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: b3a8e2681abbf7e468472bfed66c6e6f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1771839754240
+    m_Localized: "Les d\xE9chets sont appel\xE9s ainsi \xE0 cause de leur quantit\xE9
+      souvent titanesque de r\xE9colte alors que souvent, ce n'est pas l'\xE9l\xE9ment
+      que l'on cherche. Enfin \xE7a ne veut pas dire qu'ils n'ont pas d'utilit\xE9
+      !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1891826208768
+    m_Localized: "Les resources commune sont les resources que vous trouverez le
+      plus souvent, ce sont celles qui jonchent le monde et le font dans sa globalit\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962668003328
+    m_Localized: "Ce ne sont peut-\xEAtre pas les choses les plus int\xE9ressantes
+      que vous trouverez, il faudra quand m\xEAme une certaine connaissance pour
+      trouver ou utiliser ces choses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1987162738688
+    m_Localized: La cerise sur le gateau.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006527840256
+    m_Localized: "Toutes les choses de ce monde n'ont pas la chance d'avoir quelque
+      chose de super rare, si cela vous appartient, \xE7a n'a peut-\xEAtre pas toujours
+      \xE9t\xE9 la m\xEAme chose, et \xE7a ne sera peut-\xEAtre pas toujours le cas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2029894307840
+    m_Localized: "Seul une certaine partie de l'\xE9lite comprendre ces choses...
+      Les autres ne devraient pas jouer avec la magie..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2046927376384
+    m_Localized: "Si la seule fa\xE7on dont vous \xEAtes puissant est via une de
+      ces choses, peut-\xEAtre vous n'\xEAtes pas vraiment puissant..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2087339495424
+    m_Localized: Les choses les plus utiles que vous trouverez ne sont pas toujours
+      bonne pour vous, le saviez-vous ?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

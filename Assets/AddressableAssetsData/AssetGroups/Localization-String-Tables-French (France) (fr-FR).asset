@@ -18,7 +18,37 @@ MonoBehaviour:
   m_GUID: 63551a3ca96887a459580d5b839fcc5e
   m_SerializeEntries:
   - m_GUID: 222dd5d62e0285645815446d2ac98d5b
-    m_Address: Base Dev Table_fr-FR
+    m_Address: RaritiesNames_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+  - m_GUID: b160469d0c3c4b94b8454ab5f1121bc7
+    m_Address: ResourcesName_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+  - m_GUID: 1f553f090176a9b4bab80ebe4783cbcb
+    m_Address: ResourcesShortDescription_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+  - m_GUID: 91f6cc90efd9f0149971f3c0f83f31c3
+    m_Address: ResourcesLongDescription_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+  - m_GUID: 8d12c507b442a7241a573a208833b3c8
+    m_Address: RaritiesShortDescription_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+    - Preload
+  - m_GUID: 77c09a1073b431841b83b2bd656b5b0b
+    m_Address: DebugAndUnassigned_fr-FR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fr-FR

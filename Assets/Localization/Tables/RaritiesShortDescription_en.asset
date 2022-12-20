@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: RaritiesShortDescription_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b3a8e2681abbf7e468472bfed66c6e6f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1771839754240
+    m_Localized: Trash is what common language use to describe all the resources
+      and items that are found in huge quantities, the problem is that it's often
+      rests of more interesting resources... But that doesn't mean they have no use
+      !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1891826208768
+    m_Localized: The resources you find by literraly looking through your window,
+      it's what make the world in it's most part.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1962668003328
+    m_Localized: May not be the most interesting thing you'll find across the world,
+      it still require some knowledge to find and make a use to those things.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1987162738688
+    m_Localized: The cherry on top of the cake.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2006527840256
+    m_Localized: Not every things on this world have the change to hold something
+      Super Rare, if it's yours, it may not have always been the case, and it may
+      not always be...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2029894307840
+    m_Localized: Only a certain part of the elite can understand those... The other
+      shouldn't mess with magic...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2046927376384
+    m_Localized: If the only way of being powerful is through one of those, maybe
+      you're not that powerful...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2087339495424
+    m_Localized: The most useful things you may find are not always the safest, didn't
+      you know ?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

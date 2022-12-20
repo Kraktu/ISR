@@ -10,31 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Base Dev Table Shared Data
+  m_Name: ResourcesLongDescription Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Base Dev Table
-  m_TableCollectionNameGuidString: feb2be5e9acb3b745951ef05612c81ae
+  m_TableCollectionName: ResourcesLongDescription
+  m_TableCollectionNameGuidString: de38a3f7a09acea42a7961720571befd
   m_Entries:
-  - m_Id: 133068488704
-    m_Key: RNKStone
-    m_Metadata:
-      m_Items: []
-  - m_Id: 488640610304
-    m_Key: RSDKStone
-    m_Metadata:
-      m_Items: []
-  - m_Id: 56377707855872
+  - m_Id: 6986693902336
     m_Key: RLDKStone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7026938249216
+    m_Key: RLDKWood
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 7040625156093116441
+    rid: 7040625290755702788
   references:
     version: 2
     RefIds:
-    - rid: 7040625156093116441
+    - rid: 7040625290755702788
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1670927167560
+        m_CustomEpoch: 1671518862115

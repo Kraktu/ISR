@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
-  m_Name: Base Dev Table
+  m_Name: ResourcesLongDescription
   m_EditorClassIdentifier: 
-  m_SharedTableData: {fileID: 11400000, guid: feb2be5e9acb3b745951ef05612c81ae, type: 2}
+  m_SharedTableData: {fileID: 11400000, guid: de38a3f7a09acea42a7961720571befd, type: 2}
   m_Tables:
-  - {fileID: 11400000, guid: f66f34b76c4313f4599a9ef5022a337a, type: 2}
-  - {fileID: 11400000, guid: 222dd5d62e0285645815446d2ac98d5b, type: 2}
-  - {fileID: 11400000, guid: c36a261c11671de44829951f530d1dad, type: 2}
+  - {fileID: 11400000, guid: 95ae71194db50424eb4401f56d2df0a5, type: 2}
+  - {fileID: 11400000, guid: 91f6cc90efd9f0149971f3c0f83f31c3, type: 2}
+  - {fileID: 11400000, guid: 71a99e1e21a7ac148a89ab65a168a7c3, type: 2}
   m_Extensions: []
   m_Group: String Table
   references:

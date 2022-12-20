@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RaritiesNames Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RaritiesNames
+  m_TableCollectionNameGuidString: feb2be5e9acb3b745951ef05612c81ae
+  m_Entries:
+  - m_Id: 133068488704
+    m_Key: RarNKTrash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488640610304
+    m_Key: RarNKCommon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483258942099456
+    m_Key: RarNKUncommon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483264579244032
+    m_Key: RarNKRare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483269683712000
+    m_Key: RarNKSuperRare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483273978679296
+    m_Key: RarNKMagic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483467239624704
+    m_Key: RarNKPowerful
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2483485891694592
+    m_Key: RarNKDangerous
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7040625156093116441
+  references:
+    version: 2
+    RefIds:
+    - rid: 7040625156093116441
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1670927167560
